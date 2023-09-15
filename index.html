@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MCQ Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .quiz-container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .question {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .h{
+            color: white;
+            background-color: green;
+            padding: 2px;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+          }
+          
+          .pagination button {
+            padding: 5px 10px;
+            margin: 0 5px;
+            cursor: pointer;
+            outline: 1px solid #494a4f;
+            border-radius: 1px;
+            border: none;
+          }
+          
+          .hidden {
+            clip: rect(0 0 0 0);
+            clip-path: inset(50%);
+            height: 1px;
+            overflow: hidden;
+            position: absolute;
+            white-space: nowrap;
+            width: 1px;
+          }
+          
+          .pagination button.active {
+            background-color: #007bff;
+            color: white;
+          }
+        button{
+            padding: 20px 30px;
+      background-color:green;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-weight: bold;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="h">
+        <center><h1>General knowledge MCQ</h1></center>
+    </div>
+    <article class="quiz-container">
+        
+        <form id="quiz-form">
+            <div class="question">
+                1. What is the capital of France?
+            </div>
+            <div class="options">
+                <label><input type="radio" name="q1" value="a"> Paris</label>
+                <label><input type="radio" name="q1" value="b"> London</label>
+                <label><input type="radio" name="q1" value="c"> Berlin</label>
+            </div>
+
+            <div class="question">
+                2. What is the largest planet in our solar system?
+            </div>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a"> Mars</label>
+                <label><input type="radio" name="q2" value="b"> Jupiter</label>
+                <label><input type="radio" name="q2" value="c"> Earth</label>
+                <label><input type="radio" name="q2" value="c"> Saturn</label>
+            </div>
+            <div class="question">
+                3. What is the pH value of the human body?
+            </div>
+            <div class="options">
+               
+                <label><input type="radio" name="q3" value="a"> 9.2 to 9.8</label>
+                <label><input type="radio" name="q3" value="b"> 7.0 to 7.8</label>
+                <label><input type="radio" name="q3" value="c"> 6.1 to 6.3</label>
+                <label><input type="radio" name="q3" value="d">5.4 to 5.6</label>
+            </div>
+            <div class="question">
+              
+                4.  Elections to panchayats in state are regulated by?
+            </div>
+                <div class="options">
+                <label><input type="radio" name="q4" value="a"> Gram panchayat </label>
+                <label><input type="radio" name="q4" value="b">Nagar Nigam</label>
+                <label><input type="radio" name="q4" value="c">Election Commission of India</label>
+                <label><input type="radio" name="q4" value="d"> State Election Commission</label>
+
+            </div>
+            <div class="question">
+                5. Which of the following are called "Key Industrial animals"?
+            </div>
+                <div class="options">
+                <label><input type="radio" name="qn" value="a"> Producers</label>
+                <label><input type="radio" name="qn" value="b">Tertiary consumers</label>
+                <label><input type="radio" name="qn" value="c">Primary consumers</label>
+                <label><input type="radio" name="qn" value="d">None of these</label>
+
+            </div>
+            
+            <div class="question">
+                6. Which of the given amendments made it compulsory for the president to consent to the constitutional Amendment bills?
+            </div>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a">27th</label>
+                <label><input type="radio" name="q5" value="b">29th</label>
+                <label><input type="radio" name="q5" value="c">24th</label>
+                <label><input type="radio" name="q5" value="d">22th </label>
+            </div>
+            <div class="question">
+                7.Pustaz grasslands are situated at?
+            </div>
+            <div class="options">
+                <label><input type="radio" name="q6" value="a">South Africa</label>
+                <label><input type="radio" name="q6" value="b">China</label>
+                <label><input type="radio" name="q6" value="c"> Hungary</label>
+                <label><input type="radio" name="q6" value="b"> USA</label>
+            </div>
+            <div class="question">
+                8. Which of the following Himalayan regions is called "Shivalik's"
+            </div>
+            <div class="options">
+                <label><input type="radio" name="q7" value="a"> Upper Himalayas</label>
+                <label><input type="radio" name="q7" value="b">Lower Himalayas</label>
+                <label><input type="radio" name="q7" value="c"> Outer Himalayas</label>
+                <label><input type="radio" name="q7" value="b">Inner Himalayas</label>
+            </div>
+            <div class="question">
+                9.Forming of Association in India is?
+            </div>
+            <div class="options">
+                <label><input type="radio" name="q8" value="a"> Legal Right</label>
+                <label><input type="radio" name="q8" value="b"> Illegal Right</label>
+                <label><input type="radio" name="q8" value="c"> Natural Right</label>
+                <label><input type="radio" name="q8" value="b"> Fundamental Right</label>
+            </div>
+            <div class="question">
+                10.The Samkhya School of Philosophy was founded by?
+            </div>
+            <div class="options">
+                <label><input type="radio" name="q9" value="a">Gautam Buddha</label>
+                <label><input type="radio" name="q9" value="b"> Mahipala</label>
+                <label><input type="radio" name="q9" value="c">Gopala</label>
+                <label><input type="radio" name="q9" value="b">Kapila</label>
+            </div>
+            <div class="question">
+                11.Right to emergency medical aid is a
+            </div>
+            <div class="options">
+                <label><input type="radio" name="q10" value="a">Legal Right</label>
+                <label><input type="radio" name="q10" value="b">Illegal Right</label>
+                <label><input type="radio" name="q10" value="c"> Constitutional Right</label>
+                <label><input type="radio" name="q10" value="b">Fundamental Right</label>
+            </div>
+            <div class="question">
+        12. On the recommendation of which of the given committee, the abolition of reservation of items for the small-scale sector in industry is considered?
+            </div>
+            <div class="options">
+                <label><input type="radio" name="q11" value="a"> Lohia Committee</label>
+                <label><input type="radio" name="q11" value="b">Narasimhan Committee</label>
+                <label><input type="radio" name="q11" value="c"> Ajit Kumar Committee</label>
+                <label><input type="radio" name="q11" value="b"> Abid Hussain Committee</label>
+            </div>
+            <div class="question">
+                13.Chelaiya Samiti is related to which of the following?
+            </div>
+            <div class="options">
+                <label><input type="radio" name="q12" value="a">Banking sector</label>
+                <label><input type="radio" name="q12" value="b">Insurance sector </label>
+                <label><input type="radio" name="q12" value="c">Health Sector</label>
+                <label><input type="radio" name="q12" value="b"> Tax reforms</label>
+            </div>
+            <div class="question">
+                14. Which of the given devices is used for counting blood cells?
+            </div>
+            <div class="options">
+                <label><input type="radio" name="q13" value="a">Hmelethometer</label>
+                <label><input type="radio" name="q13" value="b">Spyscometer</label>
+                <label><input type="radio" name="q13" value="c">Hemocytometer</label>
+                <label><input type="radio" name="q13" value="b">Hamosytometer</label>
+            </div>
+            <div class="question">
+                15.Which of the given compounds is used to make fireproof clothing?
+            </div>
+            <div class="options">
+                <label><input type="radio" name="q14" value="a"> Aluminum chloride</label>
+                <label><input type="radio" name="q14" value="b">Aluminum Sulphate</label>
+                <label><input type="radio" name="q14" value="c">Magnesium Chloride</label>
+                <label><input type="radio" name="q14" value="b"> Magnesium Sulphate</label>
+            </div>
+           
+
+            <!-- Add more questions here -->
+<div >
+            <button type="button" id="submit-button">Submit</button>
+        </div>
+        </form>
+        <div id="score" style="display: none;">
+            <h2>Your Score: <span id="score-value">0</span></h2>
+        </div>
+    </article>
+
+    <script>
+        document.getElementById("submit-button").addEventListener("click", calculateScore);
+
+        function calculateScore() {
+            const form = document.getElementById("quiz-form");
+            const answers = {
+                q1: "a", // Correct answers for each question
+                q2: "b",
+                q3:"c",
+                q4:"c",
+                q5:"c",
+                q6:"c",
+                q7:"c",
+                q8:"d",
+                q9:"d",
+                q10:"b",
+                qn:"c",
+                q11:"d",
+                q12:"d",
+                q13:"c",
+                q14:"b",
+                
+
+                // Add more answers here
+            };
+            let score = 0;
+
+            for (let i = 0; i < form.elements.length; i++) {
+                const element = form.elements[i];
+                if (element.type === "radio" && element.checked) {
+                    if (element.value === answers[element.name]) {
+                        score++;
+                    }
+                }
+            }
+
+            const scoreElement = document.getElementById("score-value");
+            scoreElement.textContent = score;
+            document.getElementById("score").style.display = "block";
+        }
+        document.addEventListener('DOMContentLoaded', function () {
+            const content = document.querySelector('.quiz-container'); 
+            const itemsPerPage = 6;
+            let currentPage = 0;
+            const items = Array.from(content.getElementsByTagName('div'));
+          
+          function showPage(page) {
+            const startIndex = page * itemsPerPage;
+            const endIndex = startIndex + itemsPerPage;
+            items.forEach((item, index) => {
+              item.classList.toggle('hidden', index < startIndex || index >= endIndex);
+            });
+            updateActiveButtonStates();
+          }
+          
+          function createPageButtons() {
+            const totalPages = Math.ceil(items.length / itemsPerPage);
+            const paginationContainer = document.createElement('div');
+            const paginationDiv = document.body.appendChild(paginationContainer);
+            paginationContainer.classList.add('pagination');
+          
+            // Add page buttons
+            for (let i = 0; i < totalPages; i++) {
+              const pageButton = document.createElement('button');
+              pageButton.textContent = i + 1;
+              pageButton.addEventListener('click', () => {
+                currentPage = i;
+                showPage(currentPage);
+                updateActiveButtonStates();
+              });
+          
+                content.appendChild(paginationContainer);
+                paginationDiv.appendChild(pageButton);
+              }
+          }
+          
+          function updateActiveButtonStates() {
+            const pageButtons = document.querySelectorAll('.pagination button');
+            pageButtons.forEach((button, index) => {
+              if (index === currentPage) {
+                button.classList.add('active');
+              } else {
+                button.classList.remove('active');
+              }
+            });
+          }
+          
+            createPageButtons(); // Call this function to create the page buttons initially
+            showPage(currentPage);
+          });
+    </script>
+</body>
+</html>
